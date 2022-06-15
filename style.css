@@ -1,0 +1,31 @@
+body {
+	background-color: #121212;
+}
+.ui-container {
+	margin: 0 auto;
+	width: 1000px;
+	height: 1000px;
+	overflow: auto;
+}
+
+.button-display {
+	width: 60%;
+	margin: auto;
+	padding-top: 45px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.button-row {
+	display: flex;
+}
+
+.circle {
+	height: 100px;
+	width: 100px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+}
+
